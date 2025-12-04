@@ -35,7 +35,7 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Links
 
-- Repository URL: [Add repository URL here](https://your-solution-url.com)
+- Repository URL: [Add repository URL here](https://github.com/MKP-Winner/Parthiban-CTI-110-FinalProject)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
