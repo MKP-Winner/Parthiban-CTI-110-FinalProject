@@ -16,3 +16,38 @@ body {
     padding: 70px 24px;
 }
 
+.testimonials-grid {
+    display: grid;
+    gap: 24px;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 26px 32px 32px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-purple {
+    background: hsl(263, 55%, 52%) url('./images/bg-pattern-quotation.svg') no-repeat top right 80px;
+  color: white;
+}
+
+.card-grey {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+
+.barlow-semi-condensed-medium {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-semibold {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
