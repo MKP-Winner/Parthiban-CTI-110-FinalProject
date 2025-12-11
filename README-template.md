@@ -2,7 +2,7 @@
 
 ## Table of contents
 
-- [CTI-110 Final Project - Testimonials Grid by FIRST NAME LAST NAME](#cti-110-final-project---testimonials-grid-by-first-name-last-name)
+- [CTI-110 Final Project - Testimonials Grid by FIRST NAME LAST NAME](#cti-110-final-project---testimonials-grid-by-Mithunkarthick-Parthiban)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -16,8 +16,6 @@
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,76 +26,77 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox or other browser to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
+![](screenshot1.png)
+![](screenshot2.png)
 
 ### Links
 
-- Repository URL: [Add repository URL here](https://github.com/MKP-Winner/Parthiban-CTI-110-FinalProject)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Repository URL: [Github Repository](https://github.com/MKP-Winner/Parthiban-CTI-110-FinalProject)
+- Live Site URL: [Actual Website](https://mkp-winner.github.io/Parthiban-CTI-110-FinalProject/)
 
 ## My process
 
 ### Built with
 
-FILL THIS OUT WITH WHAT YOU USED!!! - Mr. Gardner
-
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS Grid for layout
+- Flexbox for component alignment
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Google Fonts: [Barlow Semi Condensed](https://fonts.google.com/share?selection.family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900) 
+- Responsive design with media queries
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Throughout this project, I strengthen my understanding of CSS Grid and how to create complex responsive layouts. The grid system allows for precise control over card placement across different screen sizes.
 
-To see how you can add code snippets, see below:
+One key technique I implemented was using CSS Grid with media queries:
+- @media (min-width: 1024px) {
+    .testimonials-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .card:first-child {
+      grid-column: 1 / 3;
+    }
+    .card-kira {
+      grid-column: 4 / 5;
+      grid-row: 1 / 3;
+    }
+  }
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I also learned how to work with HSL color values from a style guide to maintain design consistency:
+- .card-purple {
+    background: hsl(263, 55%, 52%);
+    color: white;
+  }
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Working with background images in CSS was another valuable skill I developed:
+- .card-purple {
+    background: hsl(263, 55%, 52%) url('./images/bg-pattern-quotation.svg') no-repeat top right 80px;
+  }
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I want to continue focusing on:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Advanced CSS Grid techniques and creating more complex layouts
+- Improving accessibility features (ARIA labels, keyboard navigation)
+- Adding subtle animations and transitions for better user experience
+- Optimizing images for web performance
+- Exploring CSS custom properties (variables) for better maintainability
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Grid Generator](https://cssgridgenerator.io) - TThis interactive tool helped me visualize and generate CSS Grid layouts. It was especially useful for understanding grid-template-columns and grid positioning.
+- [CSS Fonts](https://www.w3schools.com/css/css3_fonts.asp) - This guide helped me understand how to implement Google Fonts and work with font properties like font-weight and font-family.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - This resource was invaluable for learning how to align items in the card headers using Flexbox properties.
+- [CSS Complete Guide Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me understand CSS Grid properties and how to create responsive layouts.
+- [Google Fonts Embed Code for Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed) - This resource helped me understand what to write in my css code in order to get Barlow Semi Condensed font into my website.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Mithun's Testimonial Grid Section Website](https://mkp-winner.github.io/Parthiban-CTI-110-FinalProject/)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to thank Mr. Gardner for his support throughout CTI-110, which helped me understand the curriculum and also helped me develop a strong foundation in HTML and CSS web development. 
